@@ -9,7 +9,8 @@ def safe_print_integer(value):
         value: The value to print (can be of any type).
 
     Returns:
-        bool: True if value was correctly printed (is integer), False otherwise.
+        bool: True if value was correctly printed (is integer),
+              False otherwise.
     """
     try:
         print("{:d}".format(value))
